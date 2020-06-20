@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact form</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main class="py-3 mb-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- Col-md-6 -->
+        <div class="col-md-6">
+          <!-- Google Maps -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.2984637539034!2d37.57757931503463!3d48.73799517927589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df972268c3d09f%3A0x6593c5f1c2ea6348!2z0JrQvtC80L_RjNGO0YLQtdGA0L3QsNGPINCQ0LrQsNC00LXQvNC40Y8g0KjQsNCz!5e0!3m2!1sru!2sua!4v1592496609406!5m2!1sru!2sua" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>"
+
+        </div>
+        <!-- /col-md-6 -->
+
+        <!-- Col-md-6 -->
+        <div class="col-md-6">
+          <!-- Contact Form -->
+          <h2 class="display-3">
+              Contact me
+            </h2>
+          <div class="mb-1">
+            <h4>
+              <i class="far fa-envelope"></i>
+              Don't hesitate to contact me
+            </h4>
+          </div>
+          <h5>
+            Ready for offers and cooperation
+          </h5>
+          <p class="text-muted">
+            Phone: +380666405844 <br> Email: <a href="#">qwerty1540084@gmail.com</a>
+          </p>
+
+          <!-- Input -->
+          <form>
+            <div class="row">
+              <!-- Name -->
+              <div class="col-md-6 pb-3">
+                <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Your Name" required="">
+              </div>
+              <!-- Phone -->
+              <div class="col-md-6 pb-3">
+                <input type="text" class="form-control input" name="phone" data-form-field="Phone" placeholder="Phone" required="">
+              </div>
+              <!-- Email -->
+              <div class="col-md-12 pb-3">
+                <input type="email" class="form-control input" name="email" data-form-field="Email" placeholder="Email" required="">
+              </div>
+              <!-- Message -->
+              <div class="col-md-12 pb-3">
+                <textarea class="form-control input" name="message" rows="3" maxlength="6000" data-form-field="Message" placeholder="Message" style="resize:none"></textarea>
+              </div>
+              <div class="input-group-btn col-md-12">
+                <button type="submit" class="btn btn-outline-dark btn-form display-4">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- /col-md-6 -->
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </main>
+
+
+</body>
+
+</html>

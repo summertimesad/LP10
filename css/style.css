@@ -1,0 +1,28 @@
+.navbar-brand {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.carousel a:hover {
+ background: rgba(255, 255, 255, 1);
+}
+
+
+p {
+ font-family: 'Roboto Slab', serif;
+ font-weight: 400;
+}
